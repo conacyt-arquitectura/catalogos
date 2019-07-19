@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "mx.conacyt.catalogos",
+      "nativeLanguage": "es"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "microservice",
+    "baseName": "catalogos",
+    "packageName": "mx.conacyt.catalogos",
+    "packageFolder": "mx/conacyt/catalogos",
+    "serverPort": "8081",
+    "authenticationType": "oauth2",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "oracle",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MzYzZDU0OGNiMTdlNjA5ZTIwYTg0ZjgwMTM0NTgwNWM0NTcyNzQ3OWZjZjI0MDEzNTgwODgzN2ZjYmYyYTJiNTFjMmY1OGMzYjJlNzUwOThhZmEyNDIwODk4YTk5NzliODA5MzBiMTlmMzljMGNiNzY2ZjZkMmU2ZjA0ZThmY2E=",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "es",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
