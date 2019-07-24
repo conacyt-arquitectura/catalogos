@@ -10,16 +10,10 @@
     <name>Catalogos</name>
 
     <repositories>
-    <!-- more information at https://blogs.oracle.com/dev2dev/entry/how_to_get_oracle_jdbc -->
         <repository>
-            <id>maven.oracle.com</id>
-            <name>oracle-maven-repo</name>
-            <url>https://maven.oracle.com</url>
-            <layout>default</layout>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </releases>
+            <id>ccd-conacyt</id>
+            <name>repositorio para ccd</name>
+            <url>https://artifacts.ccd.conacyt.mx/content/groups/public/</url>
         </repository>
         <!-- TODO To remove after final JHipster release -->
         <repository>
@@ -184,8 +178,9 @@
         </dependency>
         <!-- more information at https://blogs.oracle.com/dev2dev/entry/how_to_get_oracle_jdbc -->
         <dependency>
-            <groupId>com.oracle.jdbc</groupId>
-            <artifactId>ojdbc8</artifactId>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc</artifactId>
+            <version>11.2.0.4</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
