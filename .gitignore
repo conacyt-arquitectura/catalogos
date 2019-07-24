@@ -51,6 +51,12 @@ local.properties
 .buildpath
 
 ######################
+# Netbeans
+######################
+nb-configuration.xml
+nbactions.xml
+
+######################
 # Intellij
 ######################
 .idea/
